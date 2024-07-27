@@ -7,17 +7,7 @@
         "psr/cache": "^3.0",
         "ecomdev/cache-key": "^1.1"
     },
-    "require-dev": {
-        "phpspec/phpspec": "^2.4",
-        "squizlabs/php_codesniffer": "*",
-        "phpmd/phpmd": "^2.3",
-        "satooshi/php-coveralls": "dev-master",
-        "mikey179/vfsStream": "^1.6",
-        "henrikbjorn/phpspec-code-coverage": "^2.0",
-        "phpspec/nyan-formatters": "^1.0",
-        "ecomdev/phpspec-magento-di-adapter": "~0.1",
-        "magento/zendframework1": "*"
-    },
+
     "version": "0.2.1",
     "license": "OSL-3.0",
     "authors": [
@@ -44,9 +34,6 @@
         "bin-dir": "bin/"
     },
     "repositories": {
-        "magento": {
-            "type": "composer",
-            "url": "https://repo.magento.com/"
-        }
+
     }
 }
